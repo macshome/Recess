@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>OIDCClientID</key>
+			<string>9fcc52c7-ee36-4889-8517-c5fed2c78083</string>
+			<key>OIDCIgnoreCookies</key>
+			<false/>
+			<key>OIDCProvider</key>
+			<string>Azure</string>
+			<key>OIDCROPGID</key>
+			<string>9fcc52c7-ee36-4889-8517-c5fed2c78083</string>
+			<key>PayloadDescription</key>
+			<string>Jamf Connect Login Settings</string>
+			<key>PayloadDisplayName</key>
+			<string>Jamf Connect Login Azure</string>
+			<key>PayloadEnabled</key>
+			<true/>
+			<key>PayloadIdentifier</key>
+			<string>com.jamf.connect.login</string>
+			<key>PayloadOrganization</key>
+			<string>Jamf</string>
+			<key>PayloadType</key>
+			<string>com.jamf.connect.login</string>
+			<key>PayloadUUID</key>
+			<string>EF3A360F-7600-492A-974B-A29CD343F599</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+		</dict>
+	</array>
+	<key>PayloadDescription</key>
+	<string>Jamf Connect Login Settings</string>
+	<key>PayloadDisplayName</key>
+	<string>Jamf Connect Login Azure</string>
+	<key>PayloadEnabled</key>
+	<true/>
+	<key>PayloadIdentifier</key>
+	<string>com.jamf.connect.login</string>
+	<key>PayloadOrganization</key>
+	<string>Jamf</string>
+	<key>PayloadRemovalDisallowed</key>
+	<true/>
+	<key>PayloadScope</key>
+	<string>System</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>091F8A06-094E-42A8-95C3-70A26D4C5C58</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

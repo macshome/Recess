@@ -1,0 +1,3 @@
+import PassKit
+
+PKPaymentAuthorizationController.canMakePayments()
