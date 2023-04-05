@@ -3,23 +3,35 @@
    version = "3.0">
    <TimelineItems>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/joshwisenbaker/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/Recess/Strings.playground#CharacterRangeLen=74&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=4&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=654473295.4045171"
+         documentLocation = "file:///Users/josh.wisenbaker/Recess/Strings.playground#CharacterRangeLen=74&amp;CharacterRangeLoc=0&amp;EndingColumnNumber=0&amp;EndingLineNumber=4&amp;StartingColumnNumber=0&amp;StartingLineNumber=0&amp;Timestamp=680644397.5934449"
          lockedSize = "{333.6513671875, 50}"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/joshwisenbaker/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/Recess/Strings.playground#CharacterRangeLen=55&amp;CharacterRangeLoc=19&amp;EndingColumnNumber=0&amp;EndingLineNumber=4&amp;StartingColumnNumber=0&amp;StartingLineNumber=2&amp;Timestamp=654473295.404717"
+         documentLocation = "file:///Users/josh.wisenbaker/Recess/Strings.playground#CharacterRangeLen=55&amp;CharacterRangeLoc=19&amp;EndingColumnNumber=0&amp;EndingLineNumber=4&amp;StartingColumnNumber=0&amp;StartingLineNumber=2&amp;Timestamp=680644397.59357"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/joshwisenbaker/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/Recess/Strings.playground#CharacterRangeLen=55&amp;CharacterRangeLoc=19&amp;EndingColumnNumber=0&amp;EndingLineNumber=4&amp;StartingColumnNumber=0&amp;StartingLineNumber=2&amp;Timestamp=654473295.404827"
+         documentLocation = "file:///Users/josh.wisenbaker/Recess/Strings.playground#CharacterRangeLen=55&amp;CharacterRangeLoc=19&amp;EndingColumnNumber=0&amp;EndingLineNumber=4&amp;StartingColumnNumber=0&amp;StartingLineNumber=2&amp;Timestamp=680644397.593642"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>
       <LoggerValueHistoryTimelineItem
-         documentLocation = "file:///Users/joshwisenbaker/Library/Mobile%20Documents/com~apple~CloudDocs/Desktop/Recess/Strings.playground#CharacterRangeLen=55&amp;CharacterRangeLoc=19&amp;EndingColumnNumber=0&amp;EndingLineNumber=4&amp;StartingColumnNumber=0&amp;StartingLineNumber=2&amp;Timestamp=654473295.404938"
+         documentLocation = "file:///Users/josh.wisenbaker/Recess/Strings.playground#CharacterRangeLen=55&amp;CharacterRangeLoc=19&amp;EndingColumnNumber=0&amp;EndingLineNumber=4&amp;StartingColumnNumber=0&amp;StartingLineNumber=2&amp;Timestamp=680644397.593713"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/josh.wisenbaker/Recess/Strings.playground#CharacterRangeLen=14&amp;CharacterRangeLoc=122&amp;EndingColumnNumber=19&amp;EndingLineNumber=7&amp;StartingColumnNumber=5&amp;StartingLineNumber=7&amp;Timestamp=680644397.593784"
+         lockedSize = "{362, 128}"
+         selectedRepresentationIndex = "0"
+         shouldTrackSuperviewWidth = "NO">
+      </LoggerValueHistoryTimelineItem>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/josh.wisenbaker/Recess/Strings.playground#CharacterRangeLen=8&amp;CharacterRangeLoc=171&amp;EndingColumnNumber=13&amp;EndingLineNumber=9&amp;StartingColumnNumber=5&amp;StartingLineNumber=9&amp;Timestamp=680644397.593855"
+         lockedSize = "{309, 128}"
          selectedRepresentationIndex = "0"
          shouldTrackSuperviewWidth = "NO">
       </LoggerValueHistoryTimelineItem>

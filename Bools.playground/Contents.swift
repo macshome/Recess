@@ -15,3 +15,11 @@ false || true
 false || false
 true || true
 true || false
+
+class UserModel {
+var adminOverride: Bool?
+}
+
+let userData = UserModel()
+let adminOverride = userData.adminOverride ?? false
+adminOverride.description

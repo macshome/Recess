@@ -1,8 +1,14 @@
 import Foundation
 
-if let diagDefaults = UserDefaults.standard.persistentDomain(forName: "com.apple.security.tokenlogin") {
-    let data = diagDefaults["3F667154071B6DED593619213ACBEBA56E27412E"] as! Data
-   let plist = try PropertyListSerialization.propertyList(from: data, options: .mutableContainers, format: nil)
-    print(plist)
+func getManagedItems(defaults: UserDefaults) -> [String: Any] {
+    let allItems = defaults.dictionaryRepresentation()
+    return allItems.filter {
+        defaults.objectIsForced(forKey: $0.key)
+    }
 }
 
+let appID = "com.jamf.connect"
+let localSettings = UserDefaults.standard.persistentDomain(forName: appID)!
+let managedSettings = getManagedItems(defaults: UserDefaults(suiteName: appID)!)
+
+print(managedSettings.keys)

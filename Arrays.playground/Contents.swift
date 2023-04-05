@@ -1,8 +1,19 @@
 import Cocoa
 
-let testAry = ["foo", "bar"]
+var testAry = ["--recursive", "--parallel", "--strict"]
 print(testAry)
 testAry.isEmpty
+
+testAry.contains("bar")
+
+testAry.filter { $0 != "--strict" }
+
+if let idx = testAry.firstIndex(of: "bar") {
+    testAry.remove(at: idx)
+}
+
+testAry
+//foo
 
 //
 //extension Dictionary where Key == String {

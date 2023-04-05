@@ -80,3 +80,5 @@ let formatter = DateFormatter()
 formatter.dateFormat = "MMM d yyyy"
 //formatter.dateStyle = .medium
 let createdOn = formatter.date(from: buildDate)
+
+TimeZone.current

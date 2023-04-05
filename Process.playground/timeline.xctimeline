@@ -2,5 +2,9 @@
 <Timeline
    version = "3.0">
    <TimelineItems>
+      <LoggerValueHistoryTimelineItem
+         documentLocation = "file:///Users/josh.wisenbaker/Recess/Process.playground#CharacterRangeLen=30&amp;CharacterRangeLoc=8860&amp;EndingColumnNumber=0&amp;EndingLineNumber=252&amp;StartingColumnNumber=2&amp;StartingLineNumber=251&amp;Timestamp=701726686.270292"
+         selectedRepresentationIndex = "0">
+      </LoggerValueHistoryTimelineItem>
    </TimelineItems>
 </Timeline>
