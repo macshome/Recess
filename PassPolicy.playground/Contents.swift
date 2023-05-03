@@ -1,4 +1,3 @@
-import Cocoa
 import OpenDirectory
 
 var localNode: ODNode? {
@@ -9,10 +8,21 @@ var localNode: ODNode? {
     }
 }
 
-if let policy = try? localNode?.accountPolicies() {
-    let policyDict = policy as NSDictionary
+let user = try? localNode?.record(withRecordType: kODRecordTypeUsers, name: NSUserName(), attributes: nil)
+
+if let globalPolicy = try? localNode?.accountPolicies() {
+    let policyDict = globalPolicy as NSDictionary
     let passwordPolicy = policyDict.value(forKeyPath: "policyCategoryPasswordContent.policyContent")
-    print(passwordPolicy)
+    print(passwordPolicy.debugDescription)
 }
 
-//[NSString stringWithFormat:@"%@ matches '.{8,}+'", kODPolicyAttributePassword];
+if let userPolicy = try? user?.recordDetails(forAttributes: ["accountPolicyData"]) {
+    let policyDict = userPolicy as NSDictionary
+    print(policyDict.description)
+} else {
+    print("no user policy set")
+}
+
+
+let count = try? user?.values(forAttribute: "accountPolicyData")
+

@@ -20,7 +20,7 @@ class A: NSObject {
         self.slavePath = String.init(cString: ptsname(masterFD))
         self.slaveFile = FileHandle.init(forUpdatingAtPath: slavePath)
         self.task!.executableURL = URL(fileURLWithPath: "/bin/sh")
-        self.task!.arguments = ["-c", "say foobar"]
+//        self.task!.arguments = ["-c", "say foobar"]
         self.task!.standardOutput = slaveFile
         self.task!.standardInput = slaveFile
         self.task!.standardError = slaveFile
@@ -41,7 +41,6 @@ class A: NSObject {
         let strData = String(data: data, encoding: .utf8)
         print("Output: " + strData!)
         sleep(1)
-        self.masterFile!.write("ldapsearch -W\n".data(using: .utf8)!)
         self.masterFile!.write("echo foo\n".data(using: .utf8)!)
         slavePath
         sleep(1)

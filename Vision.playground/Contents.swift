@@ -14,7 +14,7 @@ var rectangleDetectionRequest: VNDetectRectanglesRequest = {
     let rectDetectRequest = VNDetectRectanglesRequest(completionHandler: handleObservations)
     // Customize & configure the request to detect only certain rectangles.
     //        rectDetectRequest.maximumObservations = 8 // Vision currently supports up to 16.
-    //        rectDetectRequest.minimumConfidence = 0.6 // Be confident.
+            rectDetectRequest.minimumConfidence = 0.6 // Be confident.
     return rectDetectRequest
 }()
 
@@ -49,6 +49,6 @@ func handleObservations(request: VNRequest?, error: Error?) {
     print(results)
 }
 
-//try! loginRequestHandler.perform([rectangleDetectionRequest, textDetectionRequest])
-try! remindersRequestHandler.perform([featurePrintRequest])
+try! loginRequestHandler.perform([rectangleDetectionRequest])
+//try! remindersRequestHandler.perform([featurePrintRequest])
 //try! azureRequestHandler.perform([rectangleDetectionRequest, textDetectionRequest])
