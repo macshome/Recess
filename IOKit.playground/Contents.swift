@@ -19,7 +19,7 @@ func getIOPlatformString(_ key: String) -> String {
 }
 
 
-
+// Get crazy and hook Gestalt
 public class MobileGestalt {
 
     public enum Query: String {
@@ -54,3 +54,18 @@ public class MobileGestalt {
 let gestalt = MobileGestalt()
 gestalt.getValue(for: .provisioningUDID)
 getIOPlatformString("IOPlatformUUID")
+
+
+// This only works on ARM
+func getProductDescriptionARM() -> String? {
+    let appleSiliconProduct = IORegistryEntryFromPath(kIOMainPortDefault, "IOService:/AppleARMPE/product")
+    let cfKeyValue = IORegistryEntryCreateCFProperty(appleSiliconProduct, "product-description" as CFString, kCFAllocatorDefault, 0)
+    IOObjectRelease(appleSiliconProduct)
+    let keyValue: AnyObject? = cfKeyValue?.takeUnretainedValue()
+    if keyValue != nil, let data = keyValue as? Data {
+        return String(data: data, encoding: String.Encoding.utf8)?.trimmingCharacters(in: CharacterSet(["\0"]))
+    }
+    return nil
+}
+
+getProductDescriptionARM()
