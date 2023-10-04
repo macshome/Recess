@@ -18,6 +18,7 @@ func getIOPlatformString(_ key: String) -> String {
     return iopString
 }
 
+getIOPlatformString("IOPlatformUUID")
 
 // Get crazy and hook Gestalt
 public class MobileGestalt {
@@ -53,7 +54,7 @@ public class MobileGestalt {
 
 let gestalt = MobileGestalt()
 gestalt.getValue(for: .provisioningUDID)
-getIOPlatformString("IOPlatformUUID")
+
 
 
 // This only works on ARM
