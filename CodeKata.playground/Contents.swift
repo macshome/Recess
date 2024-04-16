@@ -1,5 +1,4 @@
 //: Playground - noun: a place where people can play
-
 func minValue(_ numbers: Int...) -> Int {
     let uniquedNumbers = Array(Set(numbers)).sorted()
     return uniquedNumbers.reduce(0) {$0 * 10 + $1}

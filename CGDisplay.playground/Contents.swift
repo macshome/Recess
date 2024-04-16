@@ -8,3 +8,4 @@ for display in avaliableDisplayModes {
     let displayMode = display
     print(displayMode)
 }
+

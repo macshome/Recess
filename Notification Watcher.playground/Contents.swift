@@ -22,7 +22,7 @@ class Watcher {
                                         .deliverImmediately)
 
         print("Register for NSNotifications")
-        DistributedNotificationCenter.default().addObserver(forName: .NSSystemClockDidChange,
+        DistributedNotificationCenter.default().addObserver(forName: nil,
                                                             object: nil,
                                                             queue: .main) { note in
             print(note)

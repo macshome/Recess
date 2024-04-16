@@ -1,8 +1,8 @@
 import Cocoa
 
-let someText = NSTextField()
-someText.stringValue = "Foobar"
-someText.textDidChange(Notification(name: NSText.didChangeNotification))
+//let someText = NSTextField()
+//someText.stringValue = "Foobar"
+//someText.textDidChange(Notification(name: NSText.didChangeNotification))
 
 let windowList = CGWindowListCopyWindowInfo(.optionOnScreenOnly, kCGNullWindowID)! as! [[String: AnyObject]]
 let myWindows: [AnyObject] = windowList.compactMap {
